@@ -12,6 +12,8 @@
     font-weight: normal;
     font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap|Barlow|EB+Garamond|Literata|Quicksand|Raleway|Teko|Yanone+Kaffeesatz&display=swap');
 
 h1 {
     font-weight: normal;
@@ -76,6 +78,12 @@ html {
 .contacts {
     font-size: 15px;
     color: rgb(82, 80, 80);
+    
+}
+
+.contacts, .contact-headers {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #about-heading {
@@ -131,6 +139,7 @@ html {
     margin: 10px;
     border-radius: 5%;
     padding: 0;
+    border: solid black 2px;
 }
 
 .portfolio-titles {
@@ -163,6 +172,10 @@ html {
     height: 301.81px;
 }
 
+#checkers{
+    height: 288.92px;
+}
+
 body {
     margin: 0;
 }
@@ -176,6 +189,21 @@ body {
     height: 299.5px;
 }
 
+text{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Abel', sans-serif;
-font-family: 'Mukta', sans-serif;*/
+font-family: 'Mukta', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Literata', serif;
+font-family: 'Asap', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Teko', sans-serif;*/
